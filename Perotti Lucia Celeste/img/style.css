@@ -1,0 +1,67 @@
+body {
+    background-image: url(img/rhodeskin.jpeg) 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ }
+ 
+ .home {
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+ .top {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     align-items: center;
+ 
+ }
+ 
+ #logo {
+     width: 200px; 
+     height: 100px;
+     
+ }
+ 
+ .botones {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     align-items: center;
+     width: 200%;
+     height: 80px;
+     color: white;
+     font-size: 18px;
+     font-family: sans-serif;
+     font-weight: 200;
+     text-decoration: none;
+     margin: auto;
+     opacity: 0.5;
+     padding: 20px
+ 
+ }
+ .texto {
+     padding: 100px;
+     background-color: transparent;
+     margin: 50px 0px;
+     min-width: 300px;
+     
+ }
+
+
+
+
+ .section {
+    text-align: center;
+}
+
+
+.productos{
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
